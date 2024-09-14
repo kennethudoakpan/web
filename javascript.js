@@ -157,3 +157,91 @@ while(dy > 0){
     console.log(dy)
     dy--
 }
+
+// /1.	Create two variables, a and b, and assign them values of your choice (they can be numbers or strings).
+// 	2.	Write expressions using the following comparison operators and log the results to the console:
+// 	•	== (loose equality)
+// 	•	=== (strict equality)
+// 	•	!= (loose inequality)
+// 	•	!== (strict inequality)
+// 	•	>
+// 	•	<
+// 	•	>=
+// 	•	<=
+
+// Example:
+
+// let a = 5;
+// let b = '5';
+// // Perform comparisons here
+
+// Part 2: Practice Problems
+
+// 	1.	Write a program that takes two numbers as input and checks:
+// 	•	If the first number is greater than the second.
+// 	•	If the two numbers are equal in value and type.
+// 	•	If the first number is less than or equal to the second.
+// 	2.	Write a program that checks if a given number is even or odd using the modulus operator (%). If the number is even, log “Even” to the console; otherwise, log “Odd.”
+
+// Bonus (Optional):
+
+// 	•	Use both == and === to compare a number and a string (e.g., 5 == '5' vs. 5 === '5'). Log the results and explain the difference between the two operators.
+
+// Submission Guidelines:
+
+// 	•	Submit the JavaScript file with the answers.
+// 	•	Ensure your code runs without errors and logs the correct results in the browser console.
+
+// This assignment reinforces their understanding of arithmetic and comparison operators with hands-on practice.
+
+var a='linda'
+var b='hi ' 
+console.log(b + a)
+
+var a=5
+var b='5'
+console.log(a==b)
+console.log(a===b)
+console.log(a!=b)
+console.log(a!==b)
+console.log(a>b)
+console.log(a<b)
+console.log(a>=b)
+console.log(a<=b)
+
+var balance=100
+var withdraw=50
+if (balance>withdraw){
+    bal-=withdraw;
+    console.log('balance is greater than withdraw')
+}else{
+    console.log('balance is insufficient')
+}
+if(balance===withdraw){
+    balance-=withdraw;
+    console.log('balance is not strickly equal to withdraw')
+}else{
+    console.log('balance not strictly equal to withdraw')
+}
+if(balance<=withdraw){
+    console.log('balance less than or equal to withdraw')
+}else{
+    console.log('balance is greater than or equal the withdraw')
+}
+
+var data=parseInt(prompt('enter a number'));
+console.log(data%2===0?'even':'odd');
+
+var data=100
+if(5%100){
+    console.log('even')
+}else if(5%20){
+    console.log('odd')
+}
+
+var data=75
+if(5%75){
+    console.log('odd')
+}else if(5%25){
+    console.log('even')
+}
