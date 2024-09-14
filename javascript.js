@@ -245,3 +245,17 @@ if(5%75){
 }else if(5%25){
     console.log('even')
 }
+
+var data1=5
+var data2='5'
+if (5=='5'){
+    console.log('true loose equality ')
+}else{
+    console.log('false')
+}
+
+if (5==='5'){
+    console.log('true')
+}else{
+    console.log('false because it is not strickly equal')
+}
